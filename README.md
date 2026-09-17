@@ -1,5 +1,7 @@
 # PolicyForge
 
+**▶ Live demo: https://noelportugal.github.io/policyforge/**
+
 A single page React application that runs an **auto insurance quote funnel**, and a small
 framework that lets one codebase serve completely different insurance brands from
 configuration alone.
@@ -17,8 +19,14 @@ data:
 | Look | Blue and amber, square corners, humanist sans | Indigo and cyan, large radii, Inter | Terracotta and amber, serif headings |
 | Base rate / policy fee | $712 / $38 | $648 / $0 | $668 / $45 |
 
-Switch between them live with the **Customise** button, or with `?tenant=meridian`,
-`?tenant=cobalt`, `?tenant=sundial`.
+Open each one, or switch between them live with the **Customise** button in the header:
+
+- [Meridian Mutual](https://noelportugal.github.io/policyforge/?tenant=meridian)
+- [Cobalt Direct](https://noelportugal.github.io/policyforge/?tenant=cobalt)
+- [Sundial Assurance](https://noelportugal.github.io/policyforge/?tenant=sundial)
+
+The Customise panel also edits colours, corner radius, typeface and feature flags live, and
+copies the resulting tenant file to your clipboard.
 
 ## Why it is built this way
 
